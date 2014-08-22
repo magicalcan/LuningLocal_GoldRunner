@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<map divideX="10" divideY="10" bg="filename_without_path.jpg">
+    <players>
+        <player x="0" y="0" skin="string" id="player"> <!--id is 'player' if this is put into players' tag-->
+            
+        </player>
+    </players>
+    <enemies>
+        <enemy x="10" y="10" skin="string" id="enemy">
+            
+        </enemy>
+    </enemies>
+    <blocks>
+        <block x="0" y="0" skin="string" value="1" height="1">
+            
+        </block>
+    </blocks>
+    <blanks>
+        <blank x="0" y="0">
+            
+        </blank>
+    </blanks>        
+    <items>
+        <item x="0" y="0" code="2" score="3" taskcount="1" img="string">
+            <![CDATA[
+                write script here...
+            ]]>
+        </item>
+    </items>
+    <hotpoints>
+        <hotpoint x="0" y="0" number="-1">
+            <!--in script-->
+            <![CDATA[
+                write script here...
+            ]]>
+            <!--out script-->            
+            <![CDATA[
+                write script here...
+            ]]>                        
+        </hotpoint>
+    </hotpoints>
+</map>
