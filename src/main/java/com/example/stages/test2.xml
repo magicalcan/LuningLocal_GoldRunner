@@ -1,0 +1,28 @@
+<Map divideX="10" divideY="5" bg="floor2">
+  <Startup><![CDATA[alert(%/%stage begin!!!!%/%);]]></Startup>
+  <Players>
+    <Player x="0" y="2" src="2vdo45v" name="John" role="0" enabled="True" visible="True" />
+    <Player x="0" y="4" src="2vdo45v" name="Mike" role="0" enabled="True" visible="True" />
+    <Player x="9" y="1" src="2vdo45v" name="enemy" role="1" enabled="True" visible="True" />
+  </Players>
+  <Blocks>
+    <Block x="4" y="2" img="tree1" value="0" height="0" />
+    <Block x="7" y="2" img="tree2" value="0" height="0" />
+  </Blocks>
+  <Blanks>
+    <Blank x="8" y="0" />
+    <Blank x="1" y="1" />
+    <Blank x="0" y="1" />
+    <Blank x="2" y="0" />
+    <Blank x="3" y="0" />
+    <Blank x="4" y="0" />
+    <Blank x="5" y="2" />
+  </Blanks>
+  <Items>
+    <Item x="9" y="3" code="0" task="0" img="1" keep="False" score="0"><![CDATA[alert(%/%this is a box%/%);]]></Item>
+    <Item x="7" y="4" code="0" task="0" img="1" keep="False" score="0"><![CDATA[alert(%/%got the item%/%);]]></Item>
+  </Items>
+  <Hotpoints>
+    <Hotpoint x="7" y="0" count="1"><![CDATA[alert(%/%left village!%/%);]]><![CDATA[]]></Hotpoint>
+  </Hotpoints>
+</Map>
